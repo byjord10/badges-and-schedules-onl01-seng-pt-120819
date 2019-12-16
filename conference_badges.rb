@@ -11,5 +11,6 @@ end
 def assign_rooms(attendees)
   room_assignments = [1..7]
   attendees.each_with_index.map |attendee , index|
-    "Hello, #{attendee}! You'll be asigned to room #{index+1} " 
+    "Hello, #{attendee}! You'll be asigned to room #{index+1} "
+  end 
 end
