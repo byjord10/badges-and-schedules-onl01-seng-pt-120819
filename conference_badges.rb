@@ -13,3 +13,9 @@ def assign_rooms(attendees)
     "Hello, #{attendee}! You'll be assigned to room #{index+1}!"
   end
 end
+
+def conference_badges(attendees)
+  batch_badge_creator(attendees).each do |badge|
+    puts badge
+  end 
+end
