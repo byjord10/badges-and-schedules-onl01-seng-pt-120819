@@ -17,5 +17,5 @@ end
 def conference_badges(attendees)
   batch_badge_creator(attendees).each do |badge|
     puts badge
-  end 
+  end
 end
